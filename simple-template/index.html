@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Zeplin CSS</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo.png" width="75" alt="Logo">
+      </a>
+      <div  style="width:20px!important;">
+        <a href="https://www.instagram.com/" class="navbar-brand">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </div>
+      &nbsp;
+      <div style="width:20px!important;">
+        <a href="https://www.facebook.com/">
+          <i class="fa fa-facebook-f"></i>
+        </a>
+      </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">KABUTAŞ HAKKINDA <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">GALERİ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">BLOG</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">KAPUTAŞA NASIL GİDİLİR</a>
+        </li>
+      </ul
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 ">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img height="420" class="d-block w-100 img-responsive" src="./images/deniz.jpg" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Dünyanın en iyi 5. plajı</h5>
+                <p>
+                  Yinelenen bir sayfa içeriğinin okuyucunun dikkatini dağıttığı bilinen bir gerçektir. Lorem Ipsum kullanmanın amacı, sürekli &apos;buraya metin gelecek, buraya metin gelecek&apos; yazmaya kıyasla daha dengeli bir harf dağılımı sağlayarak okunurluğu artırmasıdır. Şu anda birçok masaüstü yayıncılık paketi ve web sayfa düzenleyicisi, varsayılan mıgır metinler
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img height="420" class="d-block w-100" src="./images/deniz.jpg" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Dünyanın en iyi 5. plajı</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas pariatur dolores, necessitatibus quod veritatis consequuntur libero quasi maiores velit. Asperiores voluptatum aliquam eum aliquid quod odio mollitia dolores minus velit!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img height="420" class="d-block w-100" src="./images/deniz.jpg" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Dünyanın en iyi 5. plajı</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas pariatur dolores, necessitatibus quod veritatis consequuntur libero quasi maiores velit. Asperiores voluptatum aliquam eum aliquid quod odio mollitia dolores minus velit!</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 slider-side-two-image">
+        <div style="margin-bottom:15px">
+          <img height="200" class="d-block w-100" src="./images/deniz.jpg" alt="First slide">
+        </div>
+        <div>
+          <img height="200" class="d-block w-100" src="./images/deniz.jpg" alt="First slide">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Fotoğraflar</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Videolar</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="container">
+          <div class="row" style="margin-left:120px!important;">
+            <div class="col-lg-2 " style="margin:10px!important;">
+              <img width="400"  src="./images/deniz.jpg" alt="" class="img-fluid photograph">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 " style="margin:10px!important;">
+              <img width="400"  src="./images/deniz.jpg" alt="" class="img-fluid photograph">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4" style="margin:10px!important;">
+              <img width="400"  src="./images/deniz.jpg" alt="" class="img-fluid photograph">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4" style="margin:10px!important;">
+              <img width="400"  src="./images/deniz.jpg" alt="" class="img-fluid photograph">
+            </div>
+          </div>
+          <div class="row" style="margin-left:120px!important;" >
+            <div class="col-lg-2 col-sm-4 marginLeft" style="margin:10px!important;">
+              <img width="400" src="./images/deniz.jpg" alt="" class="img-fluid photograph">
+            </div>
+            <div class="col-lg-2 col-sm-4" style="margin:10px!important;">
+              <img width="400" src="./images/deniz.jpg" alt="" class="img-fluid photograph">
+            </div>
+            <div class="col-lg-2 col-sm-4" style="margin:10px!important;">
+              <img width="400" src="./images/deniz.jpg" alt="" class="img-fluid photograph">
+            </div>
+            <div class="col-lg-2 col-sm-4" style="margin:10px!important;">
+              <img width="400" src="./images/deniz.jpg" alt="" class="img-fluid photograph">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="container">
+          <div class="row" style="margin-left:120px!important;">
+            <div class="embed-responsive embed-responsive-16by9 col-lg-2" style="margin:15px!important;">
+              <iframe with="200" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 col-lg-2" style="margin:15px!important;">
+              <iframe with="200" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 col-lg-2" style="margin:15px!important;">
+              <iframe with="200" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 col-lg-2" style="margin:15px!important;">
+              <iframe with="200" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="row" style="margin-left:120px!important;">
+            <div class="embed-responsive embed-responsive-16by9 col-lg-2" style="margin:15px!important;">
+              <iframe with="200" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 col-lg-2" style="margin:15px!important;">
+              <iframe with="200" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 col-lg-2" style="margin:15px!important;">
+              <iframe with="200" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 col-lg-2" style="margin:15px!important;">
+              <iframe with="200" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron jumbotron-fluid" style="background-color: #36424b;!important;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img  src="./images/deniz-jumbotron.png" alt="" class="thumb">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-4" style="color:white!important">KAPUTAJ PLAJI</h1>
+          <p class="lead" style="color:white!important">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaab. Distinctio delectus, doloribus magnam nisi itaque inventore sapiente molestias est cumque, perferendis tenetur tempora!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row clearfix">
+      <div class="col-lg-5 col-md-6 RectangleBig">
+      </div>
+      <div class="col-lg-4 col-md-6 responsive-media">
+        <ul class="list-unstyled">
+          <li class="media" >
+            <img class="mr-3 img-fluid Rectangle" style="width:100px;" src="./images/deniz.jpg" alt="Generic placeholder image">
+            <div class="media-body">
+              <span class="Yinelenen-bir-sayfa">
+                Cras sit amet nibh libero, in gravic nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </span>
+            </div>
+          </li>
+          <hr class="Rectangle-Copy-10">
+          <li class="media">
+            <img class="mr-3 img-fluid Rectangle" style="width:100px;" src="./images/deniz.jpg" alt="Generic placeholder image">
+            <div class="media-body">
+              <span class="Yinelenen-bir-sayfa">
+                Cras sit amet nibh libero, in gravic nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </span>
+            </div>
+          </li>
+          <hr class="Rectangle-Copy-10">
+          <li class="media">
+            <img class="mr-3 img-fluid Rectangle" style="width:100px;" src="./images/deniz.jpg" alt="Generic placeholder image">
+            <div class="media-body">
+              <span class="Yinelenen-bir-sayfa">
+                Cras sit amet nibh libero, in gravic nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </span>
+            </div>
+          </li>
+      </ul>
+      </div>
+      <div class="col-lg-3 col-md-12 third-div">
+        <div class="">
+          <img  class="img-fluid third-div-image" src="./images/deniz.jpg" alt="">
+        </div>
+        <hr class="Rectangle-Copy-hr">
+        <div>
+          <h5>Title...</h5>
+          <span class="Yinelenen-bir-sayfa">
+            Lorem ipsum dolor sit amet, conse. Dolores tenetur quaesentium autem!
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 Copyright-2018-Kap">
+        Copyright © 2018 Kaputaj Plajı. All rights reserved.
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
